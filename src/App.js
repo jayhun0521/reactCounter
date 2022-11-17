@@ -58,7 +58,7 @@ export default class App extends Component {
   render(){
   return (
     <div className='counter'>
-      <h1>React Counter</h1>
+      <h1>Let's Count!</h1>
       <span className='counter_output'>{this.state.count}</span>
       <div className="btn_container">
         <button className='control_btn' onClick={this.increase}>+</button>
@@ -71,6 +71,7 @@ export default class App extends Component {
         </label>
         <input type="submit" value="Submit" className='submit'/>
       </form>
+      <h2>This simple counter is designed for you to press the (+) and (-) buttons to keep track of whatever you'd like. Enter a custom number if you already have a number and would like to add or subtact from it. Reset it if you mess up or if you're done.</h2>
     </div>
   );
 }
